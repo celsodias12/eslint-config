@@ -1,0 +1,13 @@
+{
+  "name": "@celsodias12/eslint-config/react-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.46.0",
+    "eslint-plugin-react-native": "^4.0.0"
+  }
+}
