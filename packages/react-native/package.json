@@ -13,5 +13,13 @@
   "peerDependencies": {
     "eslint": "^8.0.0",
     "eslint-plugin-react-native": "^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": false
+    },
+    "eslint-plugin-react-native": {
+      "optional": false
+    }
   }
 }

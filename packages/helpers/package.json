@@ -15,5 +15,16 @@
     "eslint": "^8.0.0",
     "eslint-plugin-import-helpers": "^1.0.0",
     "eslint-plugin-unused-imports": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": false
+    },
+    "eslint-plugin-import-helpers": {
+      "optional": false
+    },
+    "eslint-plugin-unused-imports": {
+      "optional": false
+    }
   }
 }
