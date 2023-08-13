@@ -16,10 +16,8 @@ jobs:
           version: 18.x
       - name: Install Dependencies
         run: npm i
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create Release Pull Request or Publish to npm
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
           publish: npm publish
         env:
