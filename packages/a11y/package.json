@@ -1,11 +1,42 @@
 {
   "name": "@celsodias12/eslint-config-a11y",
   "version": "1.0.0",
-  "description": "",
+  "private": false,
+  "description": "Linting rules to ensure JSX code is accessible for users with disabilities. Linting is done using the jsx-a11y plugin, which provides a series of rules to ensure that the code is accessible for users with visual, auditory or cognitive impairments.",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "react",
+    "reactJS",
+    "reactjs",
+    "react.js",
+    "react js",
+    "lint",
+    "eslint",
+    "eslint config",
+    "eslint plugin"
+  ],
+  "homepage": "https://github.com/celsodias12/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/celsodias12/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Celso Dias",
+    "url": "https://github.com/celsodias12"
+  },
+  "funding": {
+    "type": "buy me a coffee",
+    "url": "'https://www.buymeacoffee.com/celsodias12'"
+  },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celsodias12/eslint-config"
+  },
   "dependencies": {
     "eslint": "^8.47.0",
     "eslint-plugin-jsx-a11y": "^6.7.1"

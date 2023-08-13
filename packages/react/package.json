@@ -1,11 +1,39 @@
 {
   "name": "@celsodias12/eslint-config-react",
   "version": "1.0.0",
-  "description": "",
+  "private": false,
+  "description": "Linting rules to help ensure that React code is readable, maintainable, and free of common errors.",
+  "keywords": [
+    "react",
+    "reactJS",
+    "reactjs",
+    "react.js",
+    "lint",
+    "eslint",
+    "eslint config",
+    "eslint plugin"
+  ],
+  "homepage": "https://github.com/celsodias12/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/celsodias12/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Celso Dias",
+    "url": "https://github.com/celsodias12"
+  },
+  "funding": {
+    "type": "buy me a coffee",
+    "url": "'https://www.buymeacoffee.com/celsodias12'"
+  },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/celsodias12/eslint-config"
+  },
   "dependencies": {
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.1",
