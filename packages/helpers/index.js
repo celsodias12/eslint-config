@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['unused-imports', 'eslint-plugin-import-helpers'],
+  plugins: ['unused-imports', 'import-helpers'],
   rules: {
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
