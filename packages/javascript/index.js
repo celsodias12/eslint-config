@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:security/recommended', 'eslint:recommended', 'standard'],
+  extends: ['plugin:security/recommended', 'eslint:recommended'],
   rules: {
     // Possible Problems
     'array-callback-return': 'error',
