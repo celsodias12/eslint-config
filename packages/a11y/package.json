@@ -7,7 +7,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-plugin-jsx-a11y": "^6.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0"
   }
 }
