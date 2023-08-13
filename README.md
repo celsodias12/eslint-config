@@ -1,4 +1,4 @@
-# Eslint Config
+# Eslint config
 
 This project aims to provide a set of ESLint configurations to ensure code quality and consistency in JavaScript and TypeScript projects.
 
@@ -63,9 +63,11 @@ npm i -D @celsodias12/eslint-config-typescript @typescript-eslint/eslint-plugin 
 
 For typescript add this in your ESLint configuration file:
 
-```js
-parserOptions: {
-  project: './tsconfig.json',
+```json
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }
 ```
 
