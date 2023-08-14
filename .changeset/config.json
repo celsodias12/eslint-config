@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "celsodias12/eslint-config" }],
+  "changelog": "@changesets/changelog-git",
   "commit": true,
   "access": "public",
   "baseBranch": "main",
